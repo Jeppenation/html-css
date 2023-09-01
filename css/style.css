@@ -49,6 +49,17 @@ li a:hover {
   display: inline;
 }
 
+.horizontal-navbar-brands {
+  text-align: left;
+  display: inline;
+}
+
+.horizontal-navbar-brands li {
+  float: right;
+  padding: 10px;
+  text-align: right;
+}
+
 .vertical-navbar {
   font-size: 0.8rem;
   float: left;
@@ -56,12 +67,6 @@ li a:hover {
 .adress {
   color: #f4f4f4;
   font-size: 0.8rem;
-  float: left;
-}
-
-.icons {
-  text-align: right;
-  float: right;
 }
 
 .center {
