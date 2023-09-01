@@ -1,0 +1,69 @@
+body {
+  background-color: #eae4e0;
+  padding: 0;
+  margin: 0; /*nollställer padding och margin*/
+}
+/*skapar en klass då samma inställningar används på både footer och header */
+.header-footer {
+  background-color: #9f8170;
+  padding: 30px;
+}
+
+.logo {
+  display: block; /*gör om loggan till ett block element */
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  /* sätter inställningarna för "bakgrunden" */
+  padding: 20px;
+  background-color: #eae4e0;
+}
+
+ul {
+  /* tarbort punkterna från listan, och nollställer margin & padding */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  /* styling för själva länkarna i sig*/
+  color: #f4f4f4;
+  /* Transistion ger en mjuk effekt på bakgrunden ifall man hovrar över en länk */
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+/* ändrar färgen när man hovrar över knappen */
+li a:hover {
+  background-color: #9f6f7e;
+}
+
+.horizontal-navbar {
+  text-align: center;
+}
+
+.horizontal-navbar li {
+  padding: 13px;
+  margin-top: -10px;
+  display: inline;
+}
+
+.vertical-navbar {
+  font-size: 0.8rem;
+  float: left;
+}
+.adress {
+  color: #f4f4f4;
+  font-size: 0.8rem;
+  float: left;
+}
+
+.icons {
+  text-align: right;
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
