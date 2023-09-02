@@ -1,0 +1,53 @@
+/* sätter standard margin och padding till: 0 */
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+/* sätter header och footer till 20vh, samt ändrar display till flex och centerar objekten */
+header, footer{
+    background-color: #9f8170;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 60vh, (20+20+60vh = 100vh) */
+main{
+    height: 60vh;
+    background-color: #eae4e0;
+}
+
+/* sätter inställningarna för olistade listan, och ändrar till flex och centerar objekten */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* ändrar själva länken i sig, tillexempel "lådan" där man kan klicka */
+li{
+    width: 120px;
+    text-align: center;
+}
+
+/* ändrar själva texten i sig, ändrar färgen osv */
+li a{
+    display: block;
+    color: #f4f4f4;
+    padding: 8px 12px;
+    text-decoration: none;
+    
+    
+}
+
+/* Ändrar färgen när man hovrar över länken */
+li a:hover{
+    background-color: #9F6F7E;
+}
+
+
+
